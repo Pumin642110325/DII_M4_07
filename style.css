@@ -1,0 +1,30 @@
+.container, .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightgray;
+  }
+  .flex-item {
+    flex-basis: 200px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: darkgray;
+    font-size: 2rem;
+    font-family: sans-serif;
+    transition: .5s ease-in-out;
+  }
+  #ok {
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+  }
+  
+  #cancel {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .container2 {
+    background-color: #00ff00;
+  }
